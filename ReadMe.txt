@@ -39,7 +39,7 @@ check_lossless.m: check if a transition is lossless
 ******** The function related for obstacle checking ********
 obstacle_check_grid_matrix.m: check if node (x,P) is in collision with obstacle grids 
 
-psuedo_obs_check_line_oct.m: It checks if a collision with obstacles during the transition between nodes occurs. 
+psuedo_obs_check_line_oct.m: It checks if a collision with obstacles during the transition between nodes occurs. It also checks if the transition is lossless.
 psuedo_obs_check_line2_oct.m: The same with the above 
 **********************************************************
 ===============================================================================================================================
